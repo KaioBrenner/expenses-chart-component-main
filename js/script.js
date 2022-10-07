@@ -14,7 +14,7 @@ const data = JSON.parse([
     {
       "day": "thu",
       "amount": 31.07
-    },
+    }, 
     {
       "day": "fri",
       "amount": 23.39
