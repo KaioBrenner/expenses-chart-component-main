@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#balance-div{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: hsl(10, 79%, 65%);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(33, 100%, 98%);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+#balance{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#balance p:nth-child(1){
+    font-weight: 100;
+    font-size: 13px;
+}
+#balance p:nth-child(2){
+    font-weight: 500;
+    font-size: 1.3em;
+}
+#balance-div img{
+    width: 50px;
+}
+main{
+    width: 300px;
+    height: 400px;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+h1{
+    font-size: 1.2em;
+    color: hsl(25, 47%, 15%);
+}
+#week{
+    display: flex;
+    justify-content: space-between;
+}
+.bar-div{
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(25, 47%, 15%);
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+}
+.a1{
+    bottom: 55px;
+    left: -8px;
+    display: none;
+}
+.a2{
+    bottom: 90px;
+    left: -8px;
+    display: none;
+}
+.a3{
+    bottom: 125px;
+    left: -8px;
+    display: none;
+}
+.a4{
+    bottom: 85px;
+    left: -8px;
+    display: none;
+}
+.a5{
+    bottom: 70px;
+    left: -8px;
+    display: none;
+}
+.a6{
+    bottom: 105px;
+    left: -8px;
+    display: none;
+}
+.a7{
+    bottom: 72px;
+    left: -8px;
+    display: none;
+}
+.bar{
+    background-color: hsl(10, 79%, 65%);
+    width: 30px;
+    height: 20px;
+    border-radius: 3px;
+}
+.b1{
+    height: calc(0.12em * 17);
+}
+.b2{
+    height: calc(0.12em * 35);
+}
+.b3{
+    height: calc(0.12em * 52);
+    background-color: hsl(186, 34%, 60%);
+}
+.b4{
+    height: calc(0.12em * 31);
+}
+.b5{
+    height: calc(0.12em * 23);
+}
+.b6{
+    height: calc(0.12em * 43);
+}
+.b7{
+    height: calc(0.12em * 25);
+}
+.bar-div p{
+    margin-top: 5px;
+    font-size: 0.6em;
+    color: hsl(28, 10%, 53%);
+    text-align: center;
+}
+.amount p{
+    color: hsl(33, 100%, 98%);
+    margin: 0;
+    font-size: 0.7em;
+}
+
+.bar:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
